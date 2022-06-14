@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+        rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Rock, Paper , Scissors Game</title>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <p>Rock</p>
+            <p>Paper</p>
+            <p>Scissors</p>
+        </div>
+        <div>
+            <h3>Scores</h3>
+            <p>
+                You: <span>0</span>
+            </p>
+            <p>
+                Computer : <span>0</span>
+            </p>
+        </div>
+    </div>
+    <p >CHOOSE ONE OF THEM :</p>
+    <ul class="choice-box">
+        <li class="choice-item" id="rock">
+            <i class="fas fa-hand-rock"></i>
+        </li>
+        <li class="choice-item" id="scissors">
+            <i class="fas fa-hand-scissors"></i>
+        </li>
+        <li class="choice-item" id="paper">
+            <i class="fas fa-hand-paper"></i>
+        </li>
+    </ul>
+    <button class="rules-btn">Rules</button>
+    <div class="rules">
+        <i class="fas fa-times close"></i>
+        <ul class="choice-box">
+            <li class="choice-item" id="rock">
+                <i class="fas fa-hand-rock"></i>
+            </li>
+            <li class="choice-item" id="scissors">
+                <i class="fas fa-hand-scissors"></i>
+            </li>
+            <li class="choice-item" id="paper">
+                <i class="fas fa-hand-paper"></i>
+            </li>
+        </ul>
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

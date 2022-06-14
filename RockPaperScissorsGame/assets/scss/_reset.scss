@@ -1,0 +1,13 @@
+// Reset Css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(174,178,238);
+    background: radial-gradient(circle, rgba(174,178,238,1) 0%, rgba(201,148,233,1) 100%);
+    color: #fff;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
