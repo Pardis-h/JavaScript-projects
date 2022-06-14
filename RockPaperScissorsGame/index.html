@@ -27,15 +27,18 @@
         <div>
             <h3>Scores</h3>
             <p>
-                You: <span>0</span>
+                You: <span class="user-score">0</span>
             </p>
             <p>
-                Computer : <span>0</span>
+                Computer : <span class="com-score">0</span>
             </p>
         </div>
     </div>
-    <p >CHOOSE ONE OF THEM :</p>
-    <ul class="choice-box">
+    <p class="text-result">
+        CHOOSE ONE OF THEM :
+    </p>
+    <p class="round-title">Round: <span class="round">0</span></p>
+    <ul class="choice-box" id="user-choice">
         <li class="choice-item" id="rock">
             <i class="fas fa-hand-rock"></i>
         </li>
@@ -46,6 +49,9 @@
             <i class="fas fa-hand-paper"></i>
         </li>
     </ul>
+    <div class="result">
+        
+    </div>
     <button class="rules-btn">Rules</button>
     <div class="rules">
         <i class="fas fa-times close"></i>

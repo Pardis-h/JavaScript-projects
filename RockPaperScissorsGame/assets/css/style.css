@@ -31,14 +31,19 @@ body {
   display: flex;
 }
 
-.header + p {
+.text-result {
   text-align: center;
   margin-bottom: 16px;
   margin-top: 70px;
-  font-size: 22px;
+  font-size: 28px;
 }
 
-.choice-box {
+.round-title {
+  text-align: center;
+  font-size: 20px;
+}
+
+.choice-box, .resultBox {
   margin: 20px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -50,7 +55,7 @@ body {
   position: relative;
 }
 
-.choice-box .choice-item {
+.choice-box .choice-item, .resultBox .choice-item {
   padding: 32px;
   margin: 15px;
   cursor: pointer;
@@ -64,25 +69,25 @@ body {
   transition: .2s linear;
 }
 
-.choice-box .choice-item i {
+.choice-box .choice-item i, .resultBox .choice-item i {
   font-size: 42px;
 }
 
-.choice-box .choice-item:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.choice-box .choice-item:nth-child(2) {
-  position: relative;
-  top: 140px;
-}
-
-.choice-box .choice-item:nth-child(2) i {
+.choice-box .choice-item i.fa-hand-scissors, .resultBox .choice-item i.fa-hand-scissors {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
-.rules-btn {
+.choice-box .choice-item:hover, .resultBox .choice-item:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.choice-box .choice-item:nth-child(2), .resultBox .choice-item:nth-child(2) {
+  position: relative;
+  top: 140px;
+}
+
+.rules-btn, .reset-btn, .round-btn {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -100,9 +105,11 @@ body {
   transition: .3s linear;
 }
 
-.rules-btn:hover {
+.rules-btn:hover, .reset-btn:hover, .round-btn:hover {
   background-color: #fff;
   color: #ff00a5;
+  -webkit-box-shadow: 0px 6px 0px 0px #00000014;
+          box-shadow: 0px 6px 0px 0px #00000014;
 }
 
 .rules {
@@ -206,5 +213,47 @@ body {
 
 .rules .choice-box .choice-item:hover {
   background-color: inherit;
+}
+
+.result {
+  text-align: center;
+}
+
+.result .resultBox {
+  margin-top: 50px;
+}
+
+.result .resultBox .choice-item {
+  position: relative;
+  margin: 10px 75px;
+  cursor: inherit;
+}
+
+.result .resultBox .choice-item:hover {
+  background-color: #fff;
+}
+
+.result .resultBox .choice-item:nth-child(2) {
+  top: unset;
+}
+
+.result .resultBox .choice-item > p {
+  position: absolute;
+  top: -47px;
+  left: 0;
+  color: #fff;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.result .round-btn {
+  background-color: #fff;
+  color: #ff00a5;
+}
+
+.result .reset-btn, .result .round-btn {
+  position: static;
+  margin: 20px 5px;
 }
 /*# sourceMappingURL=style.css.map */
