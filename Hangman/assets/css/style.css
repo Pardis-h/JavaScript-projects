@@ -76,5 +76,17 @@ section#gameover p {
    font-size: 1rem;
    display: none;
 }
-
+.center{
+   text-align: center;
+ }
+ .reset-btn{
+   width: fit-content;
+     padding: 12px 20px;
+     font-size: 20px;
+     background: transparent;
+     border: none;
+     box-shadow: 0 0 4px 2px #ccc;
+     margin-bottom: 8px;
+     margin-top: 12px;
+ }
 /* WEB230 Final Project Winter 2021 */
