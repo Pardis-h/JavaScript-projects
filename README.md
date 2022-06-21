@@ -8,17 +8,17 @@ So let's get started. 👊
 
 
 ## List of JavaScript Essential Projects
-*   1. Calculator
-*   2. Clock
-*   3. TodoList
-*   4. Rock Paper Scissors Game
-*   5. Hangman
-*   6. WeatherApp
-*   7. Colors
-*   8. BeatMaker
-*   9. WebSite
-*   10. Photon
-*   11. 
+*   1.Calculator
+*   2.Clock
+*   3.TodoList
+*   4.Rock Paper Scissors Game
+*   5.Hangman
+*   6.WeatherApp
+*   7.Colors
+*   8.BeatMaker
+*   9.WebSite
+*   10.Photon
+*   11.
 .
 .
 .
