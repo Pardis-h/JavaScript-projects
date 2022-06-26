@@ -1,15 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>WeatherApp</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WeatherApp</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-
-
-    <script src="./assets/js/app.js"></script>
+  <section class="top-banner">
+    <div class="container">
+      <h1 class="heading">Weather App</h1>
+      <form>
+        <input type="text" placeholder="Search for a city" autofocus>
+        <button type="submit">SUBMIT</button>
+        <span class="msg"></span>
+      </form>
+    </div>
+  </section>
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities"></ul>
+    </div>
+  </section>
+  <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
