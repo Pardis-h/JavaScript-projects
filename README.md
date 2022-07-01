@@ -8,17 +8,18 @@ So let's get started. 👊
 
 
 ## List of JavaScript Essential Projects
-*   1.Calculator
-*   2.Clock
-*   3.TodoList
-*   4.Rock Paper Scissors Game
-*   5.Hangman
-*   6.WeatherApp
-*   7.Colors
-*   8.BeatMaker
-*   9.WebSite
-*   10.Photon
-*   11
+*   1.[Calculator](https://github.com/Pardis-h/JavaScript-projects/tree/main/Calculator)
+*   2.[Clock](https://github.com/Pardis-h/JavaScript-projects/tree/main/Clock)
+*   3.[TodoList](https://github.com/Pardis-h/JavaScript-projects/tree/main/TodoList)
+*   4.[Rock Paper Scissors Game](https://github.com/Pardis-h/JavaScript-projects/tree/main/RockPaperScissorsGame)
+*   5.[Hangman](https://github.com/Pardis-h/JavaScript-projects/tree/main/Hangman)
+*   6.[WeatherApp](https://github.com/Pardis-h/JavaScript-projects/tree/main/WeatherApp)
+*   7.[Signin Form Validation](https://github.com/Pardis-h/JavaScript-projects/tree/main/SigninFormValidation)
+*   8.Colors
+*   9.BeatMaker
+*   10.WebSite
+*   11.Photon
+*   12
 .
 .
 .
