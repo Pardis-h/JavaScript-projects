@@ -13,7 +13,7 @@ Users should be able to:
 
 
 ## 👀 𝗣𝗿𝗲𝘃𝗶𝗲𝘄
-<img src="./readme-files/TodoList.gif">
+<img src="../readme-files/TodoList.gif">
 
 ## ⚙️ 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲
 *   Css

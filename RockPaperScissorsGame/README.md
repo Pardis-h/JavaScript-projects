@@ -5,7 +5,7 @@ Rock, paper, and scissors game is a simple fun game in which both the players ha
 
 ## 👀 𝗣𝗿𝗲𝘃𝗶𝗲𝘄
   
-<img src="./readme-files/preview.gif">
+<img src="../readme-files/preview.gif">
 
 ## ⚙️ 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲
 *   Sass
